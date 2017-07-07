@@ -6,6 +6,7 @@ html {
 
 .hautPage {
   background-image: url('../images/the-flatiron-building.png');
+  background-repeat: no-repeat;
 }
 
 .pageTitle {
@@ -35,11 +36,14 @@ h3 {
   color:white;
   font-weight: bold;
   background-image: url('../images/the-flatiron-building.png');
+  background-repeat: no-repeat;
 }
 
-.copyright{
+.copyright, .copyright a {
   font-size: 11px;
-  color:gray;
+  color:white;
   text-align: left;
   background-color: dimgray;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
